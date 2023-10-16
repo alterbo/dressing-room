@@ -1,11 +1,10 @@
+import DressingRoomPage from './dressing-room/pages/dressing-room-page'
 
 
-function App() {
+const App = () => {
 
   return (
-    <>
-      holis
-    </>
+    <DressingRoomPage />
   )
 }
 
