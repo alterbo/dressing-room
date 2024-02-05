@@ -1,10 +1,10 @@
 import DressingRoomPage from './dressing-room/pages/dressing-room-page'
 
-
 const App = () => {
-
   return (
-    <DressingRoomPage />
+    <main>
+      <DressingRoomPage />
+    </main>
   )
 }
 

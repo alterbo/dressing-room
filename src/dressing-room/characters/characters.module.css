@@ -1,0 +1,43 @@
+.armLeft,
+.armRight {
+    transform: rotate(0deg);
+    transition: transform 1s ease-in-out;
+}
+
+.armLeft {
+    transform: rotate(0);
+    transform-origin: 70% 40%;
+}
+
+[data-active=true] .armLeft {
+    transform: rotate(-45deg);
+}
+
+.armRight {
+    transform: rotate(0);
+    transform-origin: 30% 40%;
+}
+
+[data-active=true] .armRight {
+    transform: rotate(45deg);
+}
+
+.censoredMotion {
+    animation: censor 700ms ease infinite;
+    transform-origin: center;
+}
+
+.female {
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 1px;
+}
+
+@keyframes censor {
+    0%, 100% {
+        opacity: 0.6;
+    }
+    50%, 99% {
+        opacity: 0.2;
+    }
+}
