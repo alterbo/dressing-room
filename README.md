@@ -1,3 +1,3 @@
-# React + TypeScript + Vite
+# Svelte + TypeScript + Vite
 
 Welcome to the dressing room
